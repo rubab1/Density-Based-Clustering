@@ -1,0 +1,28 @@
+waveformTypes:               {'sinegaussian'}
+signalToNoiseRatios:         [10]
+channelNames:                {'H1:LSC-STRAIN'}
+frameTypes:                  {'H1_RDS_C02_LX'}
+timeShifts:                  [0]
+reSampleFrequency:           4096
+blockDuration:               32
+numberOfBlocks:              200
+qRange:                      [4 64]
+frequencyRange:              [64 1024]
+maximumMismatch:             0.2
+outlierFactor:               2.0
+falseRate:                   1e0
+spectrumBand:                [40 7000]
+spectrumResolution:          0.25
+maximumSignificants:         1e5
+maximumSingles:              1e3
+maximumMosaics:              1e3
+singlesDurationInflation:    0.25
+singlesBandwidthInflation:   0.25
+overlapDurationInflation:    0.25
+overlapBandwidthInflation:   0.25
+distanceDurationInflation:   1.0
+distanceBandwidthInflation:  1.0
+# clusterLinkage:              'single'
+# clusterDistance:             2
+clusterRadius:             8
+clusterThreshold:          4
